@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>Forms</title>
+   </head>
+   <body>
+      <div class="container">
+         <form action="">
+            <div class="content">
+               <h1>Application Form</h1>
+               <div class="row">
+                  <p><span class="co">1.</span>Full name</p>
+                  <div class="col">
+                     <input type="text" placeholder="First Name" name="fname" />
+                     <input type="text" placeholder="Last Name" name="lname" />
+                  </div>
+               </div>
+               <div class="row">
+                  <p><span class="co">2.</span>Email address</p>
+                  <div class="col">
+                     <input type="email" placeholder="example@mail.com" name="email" />
+                  </div>
+               </div>
+               <div class="row">
+                  <p><span class="co">3.</span>Phone number</p>
+                  <div class="col">
+                     <input type="number" placeholder="+xxxxxxxx" name="number" />
+                  </div>
+               </div>
+               <div class="row">
+                  <p><span class="co">4.</span>Whatsapp</p>
+                  <div class="col">
+                     <input type="number" placeholder="+xxxxxxxx" name="whatsapp" />
+                  </div>
+               </div>
+               <div class="row">
+                  <p><span class="co">5.</span>Gender</p>
+                  <label for="female" class="radio">
+                     <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                     />
+                     Female
+                  </label>
+                  <label for="male" class="radio">
+                     <input type="radio" id="male" name="gender" value="male" />
+                     Male
+                  </label>
+               </div>
+               <div class="row">
+                  <p><span class="co">6.</span>Notes</p>
+                  <div class="col">
+                     <textarea
+                        name="nots"
+                        placeholder="Enter the notes you want"
+                        name="notes"
+                     ></textarea>
+                  </div>
+               </div>
+               <div class="row">
+                  <button type="submit">Submit</button>
+               </div>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
